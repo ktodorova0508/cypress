@@ -11,4 +11,4 @@ A test automation project with Cypress and TypeScript
 
 ## Run the tests
 1. To run tests in browser use command `npm run cypress`
-2. To run tests without launching browser use command `npm run test`
+2. To run tests in headless mode use command `npm run test`
