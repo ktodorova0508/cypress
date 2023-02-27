@@ -1,0 +1,29 @@
+{
+  "name": "drooms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress": "cypress open",
+    "html-report": "cypress open — — spec — — browser chrome — — headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktodorova0508/drooms.git"
+  },
+  "author": "Kristina Todorova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktodorova0508/drooms/issues"
+  },
+  "homepage": "https://github.com/ktodorova0508/drooms#readme",
+  "devDependencies": {
+    "cypress": "^12.7.0",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
+}
