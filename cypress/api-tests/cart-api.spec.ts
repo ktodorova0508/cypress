@@ -29,10 +29,15 @@ describe("CartAPI", () => {
       prod_id: 7,
     });
 
-    apiRequest("POST", viewCartUrl, { cookie: userCookie, flag: true }).then(
+    apiRequest("POST", viewCartUrl, { cookie: userCookie, flag: true }).should(
       ({ body }) => {
         expect(body.Items).to.have.length(2);
       }
     );
+    // apiRequest("POST", viewCartUrl, { cookie: userCookie, flag: true }).then(
+    //   ({ body }) => {
+    //     expect(body.Items).to.have.length(2);
+    //   }
+    // );
   });
 });

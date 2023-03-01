@@ -41,5 +41,5 @@ export const getAndClickElement = (values: {
 };
 
 export const getAndTypeValue = (getValue: string, typeValue: string) => {
-  cy.get(getValue).type(typeValue);
+  cy.get(getValue).click().type(typeValue);
 };
