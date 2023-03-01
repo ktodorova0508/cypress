@@ -1,5 +1,9 @@
+#Node modules
 node_modules
+
+#Screenshots and videos made during test runs
 screenshots
 videos
-package-lock.json
+
+#Mochawesome report generated during test runs
 report
