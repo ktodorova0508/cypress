@@ -4,6 +4,7 @@ import {
   getAndTypeValue,
 } from "../page-objects/e2e-page-objects/common.page";
 import {
+  passwordCharacters,
   randomString,
   signPasswordId,
   signUp,
@@ -11,10 +12,8 @@ import {
   signUpPosition,
   signUsernameId,
   successfulSignUpMsg,
+  usernameCharacters,
 } from "../page-objects/e2e-page-objects/sign-up.page";
-
-const usernameCharacters = "abcdefghijklmnopqrstuvwxyz";
-const passwordCharacters = "1234@abcd567";
 
 describe("SignUpE2E", () => {
   beforeEach(() => {
