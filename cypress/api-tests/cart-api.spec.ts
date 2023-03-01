@@ -21,8 +21,6 @@ describe("CartAPI", () => {
     });
 
     cy.request(productIdUrl(7));
-
-    cy.request(productIdUrl(1));
     apiRequest("POST", addToCartUrl, {
       id: "f1d028a4-e264-860e-a7e2-a41181f4d65f",
       cookie: userCookie,
@@ -34,10 +32,5 @@ describe("CartAPI", () => {
         expect(body.Items).to.have.length(2);
       }
     );
-    // apiRequest("POST", viewCartUrl, { cookie: userCookie, flag: true }).then(
-    //   ({ body }) => {
-    //     expect(body.Items).to.have.length(2);
-    //   }
-    // );
   });
 });
