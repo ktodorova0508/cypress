@@ -1,33 +1,33 @@
 {
   "compilerOptions": {
-    /* Visit https://aka.ms/tsconfig to read more about this file */
+   
 
-    "target": "ES2021",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-    "lib": ["ES2017", "DOM"],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "target": "ES2021",                                 
+    "lib": ["ES2017", "DOM"],                                        
  
     /* Modules */
-    "module": "commonjs",                                /* Specify what module code is generated. */
-    "rootDir": ".",                                  /* Specify the root folder within your source files. */
-    "moduleResolution": "node",                       /* Specify how TypeScript looks up a file from a given module specifier. */
+    "module": "commonjs",                               
+    "rootDir": ".",                                  
+    "moduleResolution": "node",                      
 
-   "types": ["cypress", "cypress-mochawesome-reporter", "node"],                                      /* Specify type package names to be included without being referenced in a source file. */
+   "types": ["cypress", "cypress-mochawesome-reporter", "node"],                                      
    
-     //"outDir": "./lib/",                                   /* Specify an output folder for all emitted files. */
-     "removeComments": false,                           /* Disable emitting comments. */
+     
+     "removeComments": false,                           
 
-     "noEmitOnError": true,                            /* Disable emitting files if any type checking errors are reported. */
+     "noEmitOnError": true,                            
 
 
-    "allowSyntheticDefaultImports": true,             /* Allow 'import x from y' when a module doesn't have a default export. */
+    "allowSyntheticDefaultImports": true,             
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "forceConsistentCasingInFileNames": true,  
 
     /* Type Checking */
-    "strict": true,                                      /* Enable all strict type-checking options. */
-    "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
-    "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
-    "noUnusedParameters": true,                       /* Raise an error when a function parameter isn't read. */
-    "noImplicitReturns": true,                        /* Enable error reporting for codepaths that do not explicitly return in a function. */
+    "strict": true,                                     
+    "noImplicitAny": true,                           
+    "noUnusedLocals": true,                           
+    "noUnusedParameters": true,                       
+    "noImplicitReturns": true,                        
 
 
   },
