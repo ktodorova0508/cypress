@@ -11,7 +11,7 @@ import {
 
 describe("CartAPI", () => {
   it("can login and add items in cart", () => {
-    apiRequest("POST", loginUrl, { username: username, password: password });
+    apiRequest("POST", loginUrl, { username, password });
 
     cy.request(productIdUrl(1));
     apiRequest("POST", addToCartUrl, {

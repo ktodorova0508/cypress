@@ -1,4 +1,4 @@
-const demoBUrl = "https://demoblaze.com";
+const demoBUrl = "/";
 
 export const homeCatClass = ".list-group-item";
 export const idOfSubCat = "#itemc";
